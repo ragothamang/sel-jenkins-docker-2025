@@ -7,7 +7,7 @@
 
     <test name="Google Search Test">
         <classes>
-            <class name="com.yourcompany.tests.GoogleSearchTest"/>
+            <class name="com.mycompany.tests.GoogleSearchTest"/>
         </classes>
     </test>
 
