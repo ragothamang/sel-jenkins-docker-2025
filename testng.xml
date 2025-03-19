@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Test Suite" parallel="false">
+    
+    <listeners>
+        <listener class-name="com.yourcompany.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Google Search Test">
+        <classes>
+            <class name="com.yourcompany.tests.GoogleSearchTest"/>
+        </classes>
+    </test>
+
+</suite>
