@@ -2,7 +2,7 @@
 <suite name="Selenium Test Suite" parallel="false">
     
     <listeners>
-        <listener class-name="com.yourcompany.listeners.TestListener"/>
+        <!-- <listener class-name="com.mycompany.listeners.TestListener"/> -->
     </listeners>
 
     <test name="Google Search Test">

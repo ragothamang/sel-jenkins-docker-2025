@@ -29,16 +29,16 @@ public class BaseTest {
         extent.attachReporter(sparkReporter);
 
         // Setup WebDriver using WebDriverManager
-//        WebDriverManager.firefoxdriver().setup();
-//        driver = new FirefoxDriver();
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver();
         
-        FirefoxOptions options = new FirefoxOptions();
-        try {
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
-        } catch (MalformedURLException e) {
-            throw new RuntimeException("Failed to connect to Selenium Grid", e);
-        }
-        
+//        FirefoxOptions options = new FirefoxOptions();
+//        try {
+//            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
+//        } catch (MalformedURLException e) {
+//            throw new RuntimeException("Failed to connect to Selenium Grid", e);
+//        }
+//        
         driver.manage().window().maximize();
     }
 
